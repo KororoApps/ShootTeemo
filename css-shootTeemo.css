@@ -55,6 +55,18 @@ html{
     -webkit-user-drag: none;
 }
 
+@media all and (max-height: 735px ) {
+    
+    .image-teemo{
+        width: 50px;
+        padding-right: 3vw;
+        padding-left: 2vw;
+    }
+    
+    
+
+}
+
 
 
 
