@@ -1,0 +1,52 @@
+.modal{
+    width: 90vw;
+    height: 100vh;
+    border: 3px green solid;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 0;
+    position: fixed;
+}
+
+.modal::backdrop {
+    background-color: rgb(153, 203, 166);    
+}
+
+.modal-container{
+    height: auto;
+    width: auto;
+}
+
+.modal-close{
+    color: white;
+    background-color: rgb(6, 97, 6);
+    border-radius: 5px;
+    border: rgb(6, 97, 6) solid 1px;
+    height:40px;
+    width: 100px;
+    top : 500px;
+    float: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.game-title{
+    font-size: 3em;
+    text-align: center;
+    margin: 4px;
+}
+
+.rules{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.caution{
+    font-size: 1em;
+    margin: 10px
+}
+
+
+

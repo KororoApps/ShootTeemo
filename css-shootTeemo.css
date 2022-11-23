@@ -1,0 +1,60 @@
+body{
+    width: 100vw;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    cursor: crosshair;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+html{
+    font-size: 16px;
+    color: rgb(6, 97, 6);
+}
+
+*{
+    color: rgb(6, 97, 6);
+}
+
+.images-flexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.image-flexbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width:100%;
+    height: 80px;
+    margin: 6px;    
+}
+
+.image-teemo{
+    width: 70px;
+    padding-right: 3vw;
+    padding-left: 2vw;
+}
+
+.picture{
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.picture img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+
+
+

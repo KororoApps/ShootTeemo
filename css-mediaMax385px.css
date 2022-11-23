@@ -1,0 +1,15 @@
+
+@media all and (max-width: 385px) {
+
+
+    .game-title{
+        font-size: 2em;
+        text-align: center;
+        margin: 4px;
+    }
+    
+    .rules{
+        font-size: 1.5em;
+        margin: 10px;
+    }   
+}

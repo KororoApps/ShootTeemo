@@ -1,0 +1,14 @@
+.chrono{
+    border: 2px solid rgba(153, 203, 166, 0.355);
+    color: rgba(103, 102, 102, 0.355);
+    font-size: 20px;
+    z-index: -1;
+    width: 150px;
+    text-align: center;
+    border-radius: 50px;
+    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    user-select: none;
+
+}
